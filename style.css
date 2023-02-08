@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --green: #00b39b;
+    --grey: #ababab;
+    --light-blue: #3d83df;
+    --blue: #1b2734;
+    --white: #fff;
+    --padding: 12px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    /*color: var(--grey)*/
+    padding: 3rem 3rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    
+}
+nav div{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+}
+#hero{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 1rem;
+}
+#hero h2{
+    color: var(--green);
+}
+#hero div{
+    display: flex;
+    gap: 1rem;
+}
+#features{
+    display: flex;
+    gap: 1rem;
+}
+#features div{
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    padding: 2em;
+    gap: 1rem;
+    border-radius: var(--padding)
+}
+#features img{
+    width: 20px;
+}
+#features div:nth-child(1){
+    background-color: var(--green);
+}
+#features div:nth-child(2){
+    background-color: var(--light-blue);
+}
+#features div:nth-child(3){
+    background-color: var(--blue);
+}
+#global h1{
+   color: #00b39b;
+   align-content: start;
+   font-weight: 300;
+    }
+#global {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 5rem;
+}
+#global div {
+  display: block;
+  margin-left: auto;
+  width: 500%;
+  filter: drop-shadow(8px 8px 4px);
+  opacity: 0.4;
+}
+#theworldbiggest {
+  background-color: rgba(10, 231, 227, 0.103);
+  margin: 0%;
+  padding: 1%;
+  box-sizing: var(--light-blue);
+}
+#theworldbiggest h4{
+    font-weight: 200;
+    color: #00b39b;
+    font-size: larger;
+}
+#theworldbiggest h6{
+    color: #ababab;
+    font-weight: 500;
+    font-style: var(--grey);
+    font-size: medium;
+}
+#lastone h1{
+    color: aquamarine;
+}
